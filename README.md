@@ -1,4 +1,4 @@
-# Neural Network in the C Language
+# Neural Networks in the C Language
 
 This repository was created to deepen my understanding of neural networks, enhance my programming skills, and gain experience in building libraries in C.
 
