@@ -76,4 +76,4 @@ Thanks to the hyperparameter settings defined in the code, I achieved an accurac
 
 ## Author
 
-Created by [Denys Bondarchuk](https://github.com/profjuvii). Feel free to reach out or contribute to the project!
+Created by [Denys Bondarchuk](https://github.com/thejvdev). Feel free to reach out or contribute to the project!
