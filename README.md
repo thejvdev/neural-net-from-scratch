@@ -1,4 +1,4 @@
-# Neural Network in the C Language
+# Neural Networks in the C Language
 
 This repository was created to deepen my understanding of neural networks, enhance my programming skills, and gain experience in building libraries in C.
 
@@ -6,7 +6,7 @@ This repository was created to deepen my understanding of neural networks, enhan
 
 This project implements a library named **Synapse** for constructing various MLP (Multilayer Perceptron) architectures in C/C++. The library is optimized for fast training of large models and offers flexibility for easily adjusting hyperparameters. By adhering to encapsulation within the project’s modules, the library simplifies usage while maintaining full control over the training process.
 
-## Installation
+## Cloning the Repository
 
 To clone this repository, execute the following bash command:
 
@@ -38,33 +38,39 @@ To train your own model, ensure that the necessary compiler extensions are inclu
 
 To run the code for training a neural network on handwritten MNIST data, follow these steps:
 
-1. **Prepare MNIST Data**:
-   - In the `mnist_preparation/` folder, you need set up a Python virtual environment:
-     ```bash
-     python -m venv .venv
-     ```
-   - Activate the virtual environment:
-     ```bash
-     source .venv/bin/activate
-     ```
-   - Install the necessary library:
-     ```bash
-     pip install idx2numpy
-     ```
-   - After this, you can run the MNIST data preparation script:
-     ```bash
-     python mnist2csv.py
-     ```
+- **Prepare MNIST Data**:
 
-2. **Build and Run the Training Code**:
-   - In the `mnist_training/` folder, run the following command to compile the code:
-     ```bash
-     make
-     ```
-   - Once the build is complete, execute the program using:
-     ```bash
-     ./train
-     ```
+  - In the `mnist_preparation/` folder, you need set up a Python virtual environment:
+    ```bash
+    python -m venv .venv
+    ```
+
+  - Activate the virtual environment:
+    ```bash
+    source .venv/bin/activate
+    ```
+
+  - Install the necessary library:
+    ```bash
+    pip install idx2numpy
+    ```
+
+  - After this, you can run the MNIST data preparation script:
+    ```bash
+    python mnist2csv.py
+    ```
+
+- **Build and Run the Training Code**:
+
+  - In the `mnist_training/` folder, run the following command to compile the code:
+    ```bash
+    make
+    ```
+
+  - Once the build is complete, execute the program using:
+    ```bash
+    ./train
+    ```
 
 Once these steps are completed, the training of the neural network on the MNIST dataset will begin as intended.
 
@@ -76,4 +82,4 @@ Thanks to the hyperparameter settings defined in the code, I achieved an accurac
 
 ## Author
 
-Created by [Denys Bondarchuk](https://github.com/profjuvii). Feel free to reach out or contribute to the project!
+Created by [Denys Bondarchuk](https://github.com/thejvdev). Feel free to reach out or contribute to the project.
